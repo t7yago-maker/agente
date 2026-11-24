@@ -1,0 +1,7 @@
+plugins { id 'com.android.application' }
+android {
+  namespace 'ai.venice.ccapp'
+  compileSdk 34
+  defaultConfig { applicationId 'ai.venice.ccapp'; minSdk 26; targetSdk 34; versionCode 1; versionName "1.0" }
+  compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}
